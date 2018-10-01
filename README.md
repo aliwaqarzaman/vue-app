@@ -1,8 +1,17 @@
 # Movies
 
+Contains the source code of the Movies app.
+
 ## Project setup
 ```
+cp .env.example .env
+```
+
+Grab an API Key on [OMDb](http://www.omdbapi.com/) and paste it in the `.env` file. Then, run this command:
+
+```
 yarn install
+
 ```
 
 ### Compiles and hot-reloads for development
